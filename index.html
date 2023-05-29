@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .col1 {
+        background-color: aqua;
+        width: 33%;
+        height: 100px;
+        float: left;
+      }
+
+      .col2 {
+        background-color: rebeccapurple;
+        width: 33%;
+        height: 100px;
+        float: left;
+      }
+
+      .col3 {
+        background-color: yellowgreen;
+        width: 33%;
+        height: 100px;
+        float: left;
+      }
+
+      .d-float::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Vu Ngoc Linh</p>
+      <a href="https://www.google.com.vn/?hl=vi"
+        ><img src="Linh ky tao lao - 202302.jpg" alt=""
+      /></a>
+    </div>
+
+    <div class="d-float">
+      <div class="col1"></div>
+      <div class="col2"></div>
+      <div class="col3"></div>
+    </div>
+  </body>
+</html>
